@@ -1,0 +1,4 @@
+2 - Como o seu computador sabe que “/=” significa o operador “diferente de” em Haskell? Onde isto está definido?
+
+
+R: No caso do Haskell, isso está definido na própria linguagem, isto é, é determinado pelo interpretador ou pelo compilador

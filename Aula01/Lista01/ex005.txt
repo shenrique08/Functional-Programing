@@ -1,0 +1,5 @@
+4 - Qual a diferença entre os tipos Char e String? As expressões ‘a’ e “a” representam o mesmo valor? Justifique.
+
+
+R: Especificamente em Haskell, Char e String são tipos de dados relacionados, porém têm finalidades diferentes. Enquanto que o primeiro
+representa um caractere, o outro representa uma cadeia de caractere.

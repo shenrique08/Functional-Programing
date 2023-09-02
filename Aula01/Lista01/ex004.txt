@@ -1,0 +1,7 @@
+4 - Quando não definimos a assinatura de uma função, o que acontece com sua definição de tipos de dados? Como se chama essa característica do Haskell e qual a vantagem dela?
+
+
+R: O compilador do Haskell tentará inferir qual é o tipo de assinatura da função baseado nos dados da própria função. Essa característica é chamada de 
+inferência de tipos" (type inference) e é uma característica poderosa na programação funcional. No entanto, é recomendado que o desenvolvedor explicite qual é o
+tipo de dado da função, com o intuito de evitar resultados inesperados.
+

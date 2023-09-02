@@ -1,0 +1,5 @@
+3 - Qual a diferença entre compilador e interpretador?
+
+
+R: Em poucas palavras, um compilador traduz todo o código fonte de uma só vez, enquanto que o interpretador traduz linha a linha, o que
+pode resultar em vantagens e desvantagens, a depender da abordagem

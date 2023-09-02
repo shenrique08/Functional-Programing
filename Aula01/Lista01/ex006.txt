@@ -1,0 +1,18 @@
+6. Quais dos seguintes nomes de funções estão corretos? Justifique.
+(a) square_1
+(b) 1square
+(c) Square
+(d) square!
+(e) square’
+
+R: 
+
+(a) square_1: Correto. Nomes de funções em Haskell podem conter letras maiúsculas e minúsculas, dígitos numéricos e underscores. No entanto, é uma boa prática começar os nomes das funções com uma letra minúscula.
+
+(b) 1square: Incorreto. Nomes de funções em Haskell não podem começar com um dígito numérico. Eles devem começar com uma letra minúscula.
+
+(c) Square: Correto. Nomes de funções podem usar letras maiúsculas e minúsculas. No entanto, é uma convenção em Haskell que nomes de funções comecem com uma letra minúscula.
+
+(d) square!: Incorreto. Nomes de funções em Haskell não podem conter caracteres especiais como exclamações (!).
+
+(e) square’: Correto. Nomes de funções podem conter apóstrofos (') como parte do nome. Isso é comum para funções que têm variações ou versões modificadas.

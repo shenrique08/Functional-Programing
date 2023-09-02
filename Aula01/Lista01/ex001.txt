@@ -1,0 +1,9 @@
+1 - O que são paradigmas de programação? Cite exemplos de linguagens de cada paradigma.
+    R: Paradigmas são meio que formas de resolver um problema. Ou seja, imagine uma função que calcula o fatorial de um número.
+    Essa função pode ser escrita de diversas maneiras, a depender do paradigma de programação desenvolvido. A seguir, veja alguns
+    exemplos de paradigmas e suas respectivas linguagens.
+
+    1 Programção Procedimental: Linguagem C, Python, C++
+    2 Programção Orientada a Objetos: Java, Pytho, C++
+    3 Programção Funcional: Haskell
+    4 Programção Lógica: Prolog
