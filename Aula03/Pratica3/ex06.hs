@@ -14,7 +14,8 @@ module Main (main) where
 import System.IO
 
 main :: IO ()
-main = menu
+main = menu -- aqui é definida uma função main que será igual a função menu
+            -- que posteriormente será utilizada no código para fazer um menu recursivo
 
 menu :: IO ()
 menu = do
@@ -24,7 +25,7 @@ menu = do
     putStrLn "3. Sair"
     putStrLn "Escolha uma opção (1/2/3): "
     opcao <- getChar
-    getLine  -- Consume the newline character
+    getLine  -- esvazia o buffer
 
     case opcao of
         '1' -> do
@@ -32,7 +33,7 @@ menu = do
             frase <- getLine
             writeFile "frase01.txt" frase
             putStrLn "Frase salva no arquivo."
-            menu
+            menu -- aqui será chamada a função novamente, como se fosse um 'while'
         '2' -> do
             putStrLn "Conteúdo do arquivo:"
             conteudo <- readFile "frase01.txt"
