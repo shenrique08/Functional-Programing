@@ -39,7 +39,4 @@ pessoaGuardas n
     | n == 1 = pessoa1
     | n == 2 = pessoa2
     | n == 3 = pessoa3
-    | otherwise = ("Desconhecido", -1, "Desconhecido")
-
-somaIdades :: Pessoa -> Idade
-somaIdades 
+    | otherwise = ("Desconhecido", - 1, "Desconhecido")
