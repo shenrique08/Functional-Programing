@@ -45,3 +45,5 @@ get_n :: Int -> [lista] -> [lista]
 get_n 0 _ = []
 get_n _ [] = []
 get_n n (head:tail) = head : get_n (n - 1) tail
+
+
