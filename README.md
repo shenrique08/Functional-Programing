@@ -1,2 +1,2 @@
 # Functional Programing
- FP in Haskell
+ Some practices of functional programming with Haskell
